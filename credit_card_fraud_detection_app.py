@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # Load data
-data = pd.read_csv(r'c:\credit_card_fraud_detection_app\creditcard.csv')
+data = pd.read_csv('small_creditcard.csv')
 
 # Separate legitimate and fraudulent transactions
 legit = data[data.Class == 0]
